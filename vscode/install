@@ -44,5 +44,3 @@ wget https://github.com/microsoft/vscode-python/releases/download/2021.3.6807530
  && code-server --install-extension ./ms-python-release.vsix --extensions-dir /home/ubuntu/.local/share/code-server/extensions || true
 chown -R ubuntu:ubuntu /home/ubuntu/.local/ && \
 rm -rf /tmp/*
-
-https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ms-toolsai/vsextensions/jupyter/2021.5.697286501/vspackage
